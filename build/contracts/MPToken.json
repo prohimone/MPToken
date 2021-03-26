@@ -1,0 +1,181 @@
+{
+  "contractName": "MPToken",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.0+commit.c7dfd78e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/D/MahayanaPermaculture/MPToken/contracts/MPToken.sol\":\"MPToken\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/D/MahayanaPermaculture/MPToken/contracts/MPToken.sol\":{\"keccak256\":\"0xdb00496766454267749decb7f1e5048664945d16311a69d4771532d21cb38f00\",\"urls\":[\"bzz-raw://fb94cc8ab75f15590f0f304e4f4fb8c0c6da494a1d21fad5f8a03239123f8770\",\"dweb:/ipfs/QmecvwX28D8GTGePfGKbx1C1vTEPCaV5T9wmfvAJUJ3yrD\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212207f7407dd88a73b4451582483123868303a6413e6d3047e1d27d17ad17408727564736f6c63430008000033",
+  "deployedBytecode": "0x6080604052600080fdfea26469706673582212207f7407dd88a73b4451582483123868303a6413e6d3047e1d27d17ad17408727564736f6c63430008000033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "112:45:0:-:0;;;137:15;;;;;;;;;;112:45;;;;;;",
+  "deployedSourceMap": "112:45:0:-:0;;;;;",
+  "source": "pragma solidity ^0.8.0;\r\n\r\n// import \"node_modules\\openzeppelin-solidity\\contracts\\token\\ERC20\\ERC20.sol\";\r\n\r\n\r\ncontract MPToken{\r\n\r\n    constructor(){}\r\n\r\n}\r\n",
+  "sourcePath": "D:/MahayanaPermaculture/MPToken/contracts/MPToken.sol",
+  "ast": {
+    "absolutePath": "/D/MahayanaPermaculture/MPToken/contracts/MPToken.sol",
+    "exportedSymbols": {
+      "MPToken": [
+        6
+      ]
+    },
+    "id": 7,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:0"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 6,
+        "linearizedBaseContracts": [
+          6
+        ],
+        "name": "MPToken",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 4,
+              "nodeType": "Block",
+              "src": "150:2:0",
+              "statements": []
+            },
+            "id": 5,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 2,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "148:2:0"
+            },
+            "returnParameters": {
+              "id": 3,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "150:0:0"
+            },
+            "scope": 6,
+            "src": "137:15:0",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 7,
+        "src": "112:45:0"
+      }
+    ],
+    "src": "0:159:0"
+  },
+  "legacyAST": {
+    "absolutePath": "/D/MahayanaPermaculture/MPToken/contracts/MPToken.sol",
+    "exportedSymbols": {
+      "MPToken": [
+        6
+      ]
+    },
+    "id": 7,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:0"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 6,
+        "linearizedBaseContracts": [
+          6
+        ],
+        "name": "MPToken",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 4,
+              "nodeType": "Block",
+              "src": "150:2:0",
+              "statements": []
+            },
+            "id": 5,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 2,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "148:2:0"
+            },
+            "returnParameters": {
+              "id": 3,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "150:0:0"
+            },
+            "scope": 6,
+            "src": "137:15:0",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 7,
+        "src": "112:45:0"
+      }
+    ],
+    "src": "0:159:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.0+commit.c7dfd78e.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.3.4",
+  "updatedAt": "2021-03-26T03:24:02.869Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}

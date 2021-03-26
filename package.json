@@ -1,0 +1,26 @@
+{
+  "name": "mptoken",
+  "version": "1.0.0",
+  "description": "A token representing a stake/share to Mahayana. Similar to a share, each token has the power to vote, influence, and propose decisions concerning Mahayana. \r Additionally, any profits made by Mahayana will be distributed to each token holders.",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "openzeppelin-solidity": "^4.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prohimone/MPToken.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prohimone/MPToken/issues"
+  },
+  "homepage": "https://github.com/prohimone/MPToken#readme"
+}
